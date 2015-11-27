@@ -7,34 +7,27 @@ Output: N = 10001010100
 */
 
 #include <iostream>
-#include <vector>
-#include <numeric>
+#include <string>
+#include <bitset>
 using namespace std;
 
-
-// TODO implement
-
-
-int solution(vector<int> &A) {
-    int rightSum = accumulate(A.begin(), A.end(), 0)-A[0];
-    int leftSum = A[0];
-    int minDiff = abs(rightSum - leftSum);
-    for (auto i = 1; i + 1 < A.size(); i++){
-        leftSum += A[i];
-        rightSum -= A[i];
-        int diff = abs(rightSum - leftSum);
-        minDiff = diff < minDiff ? diff : minDiff;
-    }
-    return minDiff;
+int solution(int N, int M, int i, int j) {
+    int mask = (1 << (j-i)) - 1; // 1's for 4 rightmost bit, all leftmost bits set to 0
+    mask <<= i;         // 0's before position j, them 1's , 0's after position i
+    mask = ~mask;       // inverted mask
+    int res = N & mask; // clear position between i and j
+    mask = M << i;
+    res |= mask;        // copy M into N between positions i and j
+    return res;
 }
 
-int main()
-{
-    vector<int> A{ 3, 1, 2, 4, 3 };
-    int minDiff = solution(A);
-    cout << "min difference is " << minDiff << endl;
 
-	return 0;
+int main(){
+
+    int k1 = solution(strtol("10000000000", NULL, 2), strtol("10101", NULL, 2), 2, 6);
+    cout << "k1 = " << bitset<32>(k1) << endl;
+
+    int k = 0;
 }
 
 

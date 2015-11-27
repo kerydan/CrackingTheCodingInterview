@@ -1,4 +1,4 @@
-﻿Codility
+﻿Cracking the Coding Interview
 ========
 
 My solutions to [Cracking the Coding Interview](https://books.google.com.ua/books/about/Cracking_the_Coding_Interview_189_Progra.html?id=jD8iswEACAAJ&source=kp_cover&hl=en) in C++
@@ -10,7 +10,7 @@ My solutions to [Cracking the Coding Interview](https://books.google.com.ua/book
 
 
 ##Chapter 5 | Bit Manipulation
-- [ ] [Exchange bits between strings](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter5/T5_1_Bits_ExchangeBits.cpp)
+- [x] [Exchange bits between strings](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter5/T5_1_Bits_ExchangeBits.cpp)
 
 
 
