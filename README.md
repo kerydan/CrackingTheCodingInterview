@@ -7,6 +7,8 @@ My solutions to [Cracking the Coding Interview](https://books.google.com.ua/book
 - [ ] [Unique characters](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter1/T1_1_Arrays_UniqueCharacters.cpp)
 - [x] [Anagrams](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter1/T1_4_Arrays_Anagrams.cpp)
 
+##Chapter 2 | Linked Lists
+- [x] [Remove duplicates](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter2/T2_1_Lists_Duplicates.cpp)
 
 
 
