@@ -54,3 +54,18 @@ list<int> solution_N2(const list<int>& L){
     return res;
 }
 
+int main(){
+
+    list<int> l{ 1, 2, 6, 1, 3, 4, 2, 9 };
+    list<int> k1 = solution_N(l);
+
+    list<int> k2 = solution_N2(l);
+    list<int> l3{ 1, 2, 6, 1, 3, 4, 2, 9, 9, 9 };
+    list<int> k3 = solution_N2(l3);
+    list<int> l4{ 1, 2, 6, 1, 3, 4, 2, 2, 2, 9 };
+    list<int> k4 = solution_N2(l4);
+    list<int> l5{ 1, 1, 1, 2, 6, 1, 3, 4, 2, 9, 7 };
+    list<int> k5 = solution_N2(l5);
+
+    int k = 0;
+}
