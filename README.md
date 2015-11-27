@@ -5,7 +5,7 @@ My solutions to [Cracking the Coding Interview](https://books.google.com.ua/book
 
 ##Chapter 1 | Arrays and Strings 
 - [ ] [Unique characters](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter1/T1_1_Arrays_UniqueCharacters.cpp)
-- [x] [Anagrams](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter1/T1_4_Arrays_Anagrams.cpp.cpp)
+- [x] [Anagrams](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter1/T1_4_Arrays_Anagrams.cpp)
 
 
 
