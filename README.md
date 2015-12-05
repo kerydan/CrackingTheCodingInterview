@@ -15,6 +15,9 @@ My solutions to [Cracking the Coding Interview](https://books.google.com.ua/book
 ##Chapter 5 | Bit Manipulation
 - [x] [Exchange bits between strings](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter5/T5_1_Bits_ExchangeBits.cpp)
 
+##Chapter 18 | Threads and Locks
+
+- [x] [Dining Philosophers problem. Non-blocking](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter5/T18_10_Thread_Philosophers_NonBlock.cpp)
 
 
 
