@@ -19,6 +19,9 @@ My solutions to [Cracking the Coding Interview](https://books.google.com.ua/book
 
 - [x] [Dining Philosophers problem. Non-blocking](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter18/T18_10_Thread_Philosophers_NonBlock.cpp)
 
+##Additional | Trees and hash
+
+- [x] [Binary search tree](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapterAdd/BinarySearchTree.cpp)
 
 
 
