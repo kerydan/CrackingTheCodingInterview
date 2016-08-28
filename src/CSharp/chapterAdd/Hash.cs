@@ -1,109 +1,102 @@
-﻿// ConsoleApplication1.cpp : Defines the entry point for the console application.
-//
-
-#include "stdafx.h"
-#include <iostream>
-
-using namespace std;
-
-class node {
-public:
-private:
-};
-
-class bsp_tree {
-
-	struct node {
-		node(int val, node* parent = NULL) : val(val), parent(parent), left(NULL), right(NULL) {}
-		node* parent;
-		node* left;
-		node* right;
-		int val;
-	};
-
-	node *root;
-public:
-	bsp_tree() : root() {};
-	void print() { traverse(); };
-
-	void traverse() {
-		node* cur = root;
-		while (cur) {
-			while (cur->left) {
-				cur = cur->left;
-			}
-
-			do {
-				cout << cur->val << " ";
-				while (cur->parent&& cur == cur->parent->right)
-				{
-					cur = cur->parent;
-				}
-				cur = cur->parent;
-			} while (cur && !cur->right);
-			if (!cur)
-				return;
-
-			if (cur) {
-				cout << cur->val << " ";
-				cur = cur->right;
-			}
-		}
-
-	}
-
-	bool add(int val) {
-		node* n = new node(val);
-		if (NULL == root) {
-			root = n;
-			return true;
-		}
-		else {
-			node* par = root;
-			while (true) {
-				if (val == par->val) {
-					delete n;
-					return false;
-				}
-				else if (val < par->val) {
-					if (NULL == par->left) {
-						par->left = n;
-						n->parent = par;
-						return true;
-					}
-					else
-						par = par->left;
-				}
-				else {
-					if (NULL == par->right) {
-						par->right = n;
-						n->parent = par;
-						return true;
-					}
-					else
-						par = par->right;
-				}
-			}
-			return true;
-		}
-
-	};
-};
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 
-
-int main()
+public class HashEntry
 {
-	bsp_tree t;
-	t.add(5);
-	t.add(3);
-	t.add(2);
-	t.add(7);
-	t.add(6);
-	t.add(10);
-	t.add(8);
-	t.print();
+    public int key
+    {
+        get; set;
+    }    
 
-	return 0;
+    public HashEntry(int k, int v)
+    {
+        key = k;
+        val = v;
+    }
+
+    public int val
+    {
+        get;
+        private set;
+    }
 }
 
+
+public class HashMap
+{
+    private static int TABLE_SIZE = 100;
+    private static int EntryDeleted = -1;
+    private static int NoKeyFound = -2;
+
+
+    HashEntry[] table;
+
+    public HashMap()
+    {
+        table = new HashEntry[TABLE_SIZE];
+        for (int i = 0; i < TABLE_SIZE; i++)
+            table[i] = null;
+    }
+
+    public int get(int key)
+    {
+        int hash = (key % TABLE_SIZE);
+        while (table[hash] != null && table[hash].key != key)
+            hash = (hash + 1) % TABLE_SIZE;
+        if (table[hash] == null)
+            return NoKeyFound;
+        else
+            return table[hash].val;
+    }
+
+    public void put(int key, int value)
+    {
+        int hash = (key % TABLE_SIZE);
+        while (table[hash] != null && table[hash].key != EntryDeleted && table[hash].key != key)
+            hash = (hash + 1) % TABLE_SIZE;
+        table[hash] = new HashEntry(key, value);
+    }
+
+    public void delete(int key)
+    {
+        int hash = (key % TABLE_SIZE);
+        while (table[hash] != null && table[hash].key != key)
+            hash = (hash + 1) % TABLE_SIZE;
+        if (table[hash] != null)
+        {
+            table[hash].key = EntryDeleted;
+            return;
+        }
+    }
+
+}
+
+
+
+namespace ConsoleApplication3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            HashMap hm = new HashMap();
+            hm.put(3, 3);
+            hm.put(103, 4);
+            hm.put(203, 5);
+            hm.put(4, 44);
+
+            int k = hm.get(4);
+            int k1 = hm.get(203);
+            hm.delete(203);
+            int k2 = hm.get(203);
+            int k3 = hm.get(4);
+            int k4 = 10;
+
+        }
+    }
+}
