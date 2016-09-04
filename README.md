@@ -26,5 +26,5 @@ My solutions to [Cracking the Coding Interview](https://books.google.com.ua/book
 
 ##Additional | Sort
 
-- [x] [Bubble sort. C#](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/CSharp/charperSort/BubbleSort.cs)
+- [x] [Bubble sort. C#](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/CSharp/chapterSort/BubbleSort.cs)
 
