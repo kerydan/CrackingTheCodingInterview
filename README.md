@@ -18,6 +18,7 @@ My solutions to [Cracking the Coding Interview](https://books.google.com.ua/book
 ##Chapter 11 | Sorting and Searching
 
 - [x] [Bubble sort. C#](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/CSharp/chapter11/BubbleSort.cs)
+- [x] [Quick sort. C++](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter11/qsort.cpp)
 
 
 ##Chapter 18 | Threads and Locks
