@@ -15,6 +15,11 @@ My solutions to [Cracking the Coding Interview](https://books.google.com.ua/book
 ##Chapter 5 | Bit Manipulation
 - [x] [Exchange bits between strings](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter5/T5_1_Bits_ExchangeBits.cpp)
 
+##Chapter 11 | Sorting and Searching
+
+- [x] [Bubble sort. C#](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/CSharp/chapter11/BubbleSort.cs)
+
+
 ##Chapter 18 | Threads and Locks
 
 - [x] [Dining Philosophers problem. Non-blocking](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter18/T18_10_Thread_Philosophers_NonBlock.cpp)
@@ -24,7 +29,4 @@ My solutions to [Cracking the Coding Interview](https://books.google.com.ua/book
 - [x] [Binary search tree. C++](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapterAdd/BinarySearchTree.cpp)
 - [x] [Hash table. C#](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/CSharp/chapterAdd/Hash.cs)
 
-##Additional | Sort
-
-- [x] [Bubble sort. C#](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/CSharp/chapterSort/BubbleSort.cs)
 
