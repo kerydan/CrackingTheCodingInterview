@@ -5,7 +5,7 @@ My solutions to [Cracking the Coding Interview](https://books.google.com.ua/book
 
 ##Chapter 0 | P interview 
 - [x] [Fibonacci, Iterative, Recursive, Unit test](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter0/Fibonacci.cpp)
-- [ ] [Reverse string, list. Use std function. Unit test](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter0/Reverse.cpp)
+- [x] [Reverse string, list. Use std function. Unit test](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter0/Reverse.cpp)
 
 
 ##Chapter 1 | Arrays and Strings 
