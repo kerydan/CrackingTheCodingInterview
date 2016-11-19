@@ -7,7 +7,8 @@ My solutions to [Cracking the Coding Interview](https://books.google.com.ua/book
 - [x] [Fibonacci, Iterative, Recursive, Unit test](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter0/Fibonacci.cpp)
 - [x] [Reverse string, list. Use std function. Unit test](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter0/Reverse.cpp)
 - [ ] [Convert number 365 to text. No built-in. Built-in](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter0/IntToStr.cpp)
-- [ ] [Write Verify(text), checking if parentheses within text are correctly nested](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter0/VerifyNestedParenth.cpp)
+- [x] [Write Verify(text), checking if parentheses within text are correctly nested](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter0/VerifyNestedParenth.cpp)
+- [x] [Function, checking if current architecture is big-ended](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter0/Endiness.cpp)
 
 ##Chapter 1 | Arrays and Strings 
 - [ ] [Unique characters](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter1/T1_1_Arrays_UniqueCharacters.cpp)
