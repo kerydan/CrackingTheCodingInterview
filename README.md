@@ -8,7 +8,6 @@ My solutions to [Cracking the Coding Interview](https://books.google.com.ua/book
 - [x] [Reverse string, list. Use std function. Unit test](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter0/Reverse.cpp)
 - [ ] [Convert number 365 to text. No built-in. Built-in](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter0/IntToStr.cpp)
 - [x] [Write Verify(text), checking if parentheses within text are correctly nested](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter0/VerifyNestedParenth.cpp)
-- [x] [Write Verify(text), checking if parentheses within text are correctly nested](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter0/VerifyNestedParenth.cpp)
 - [x] [find all pairs of integers from the array which sum is x.](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter0/SumOfPair.cpp)
 - [x] [Function, checking if current architecture is big-ended](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter0/Endiness.cpp)
 
