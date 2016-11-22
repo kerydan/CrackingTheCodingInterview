@@ -13,6 +13,7 @@ My solutions to [Cracking the Coding Interview](https://books.google.com.ua/book
 - [x] [Write Verify(text), checking if parentheses within text are correctly nested](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter0/VerifyNestedParenth.cpp)
 - [x] [find all pairs of integers from the array which sum is x.](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter0/SumOfPair.cpp)
 - [x] [Function, checking if current architecture is big-ended](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter0/Endiness.cpp)
+- [x] [Number of islands in binary matrix](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter0/NumberOfIslands.cpp)
 
 ##Chapter 1 | Arrays and Strings 
 - [ ] [Unique characters](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter1/T1_1_Arrays_UniqueCharacters.cpp)
