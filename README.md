@@ -1,6 +1,20 @@
 ﻿Cracking the Coding Interview
 
 ========
+# This is an <h1> tag
+## This is an <h2> tag
+###### This is an <h6> tag
+
+
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
+
+It's very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to Google!](http://google.com)
 
 My solutions to [Cracking the Coding Interview](https://books.google.com.ua/books/about/Cracking_the_Coding_Interview_189_Progra.html?id=jD8iswEACAAJ&source=kp_cover&hl=en) in C++
 
@@ -16,7 +30,7 @@ My solutions to [Cracking the Coding Interview](https://books.google.com.ua/book
 - [x] [Function, checking if current architecture is big-ended](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter0/Endiness.cpp)
 - [x] [Number of islands in binary matrix](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter0/NumberOfIslands.cpp)
 
-##Chapter 1 | Arrays and Strings 
+## Chapter 1 | Arrays and Strings 
 - [ ] [Unique characters](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter1/T1_1_Arrays_UniqueCharacters.cpp)
 - [x] [Anagrams](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter1/T1_4_Arrays_Anagrams.cpp)
 
