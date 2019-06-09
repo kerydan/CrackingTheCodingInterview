@@ -1,24 +1,10 @@
-﻿Cracking the Coding Interview
+﻿# Cracking the Coding Interview
 
 ========
-# This is an <h1> tag
-## This is an <h2> tag
-###### This is an <h6> tag
-
-
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
-```
-
-It's very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to Google!](http://google.com)
 
 My solutions to [Cracking the Coding Interview](https://books.google.com.ua/books/about/Cracking_the_Coding_Interview_189_Progra.html?id=jD8iswEACAAJ&source=kp_cover&hl=en) in C++
 
-Chapter -1 | *Auto* project
+## Chapter -1 | Auto project
 - [x] [Low pass filter algorithm](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter-1/LowPass.cpp)
 
 ## Chapter 0 | P interview 
@@ -34,25 +20,25 @@ Chapter -1 | *Auto* project
 - [ ] [Unique characters](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter1/T1_1_Arrays_UniqueCharacters.cpp)
 - [x] [Anagrams](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter1/T1_4_Arrays_Anagrams.cpp)
 
-##Chapter 2 | Linked Lists
+## Chapter 2 | Linked Lists
 - [x] [Remove duplicates](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter2/T2_1_Lists_Duplicates.cpp)
 
 
 
-##Chapter 5 | Bit Manipulation
+## Chapter 5 | Bit Manipulation
 - [x] [Exchange bits between strings](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter5/T5_1_Bits_ExchangeBits.cpp)
 
-##Chapter 11 | Sorting and Searching
+## Chapter 11 | Sorting and Searching
 
 - [x] [Bubble sort. C#](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/CSharp/chapter11/BubbleSort.cs)
 - [x] [Quick sort. C++](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter11/qsort.cpp)
 
 
-##Chapter 18 | Threads and Locks
+## Chapter 18 | Threads and Locks
 
 - [x] [Dining Philosophers problem. Non-blocking](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter18/T18_10_Thread_Philosophers_NonBlock.cpp)
 
-##Additional | Trees and hash
+## Additional | Trees and hash
 
 - [x] [Binary search tree. C++](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapterAdd/BinarySearchTree.cpp)
 - [x] [Hash table. C#](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/CSharp/chapterAdd/Hash.cs)
