@@ -1,4 +1,5 @@
-﻿Cracking the Coding Interview 1
+﻿Cracking the Coding Interview 1. Right branch
+
 ========
 
 My solutions to [Cracking the Coding Interview](https://books.google.com.ua/books/about/Cracking_the_Coding_Interview_189_Progra.html?id=jD8iswEACAAJ&source=kp_cover&hl=en) in C++
