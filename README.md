@@ -1,10 +1,10 @@
-﻿Cracking the Coding Interview 1. Right branch
+﻿Cracking the Coding Interview
 
 ========
 
 My solutions to [Cracking the Coding Interview](https://books.google.com.ua/books/about/Cracking_the_Coding_Interview_189_Progra.html?id=jD8iswEACAAJ&source=kp_cover&hl=en) in C++
 
-##Chapter -1 | Auto project  
+*Chapter -1 | Auto project  *
 - [x] [Low pass filter algorithm](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter-1/LowPass.cpp)
 
 ##Chapter 0 | P interview 
