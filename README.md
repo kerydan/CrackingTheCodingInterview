@@ -18,10 +18,10 @@ It's very easy to make some words **bold** and other words *italic* with Markdow
 
 My solutions to [Cracking the Coding Interview](https://books.google.com.ua/books/about/Cracking_the_Coding_Interview_189_Progra.html?id=jD8iswEACAAJ&source=kp_cover&hl=en) in C++
 
-*Chapter -1 | Auto project  *
+Chapter -1 | *Auto* project
 - [x] [Low pass filter algorithm](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter-1/LowPass.cpp)
 
-##Chapter 0 | P interview 
+## Chapter 0 | P interview 
 - [x] [Fibonacci, Iterative, Recursive, Unit test](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter0/Fibonacci.cpp)
 - [x] [Reverse string, list. Use std function. Unit test](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter0/Reverse.cpp)
 - [x] [Convert number 365 to text. No built-in. Built-in](https://github.com/kerydan/CrackingTheCodingInterview/blob/master/src/C++/chapter0/Num2Text.cpp)
