@@ -1,4 +1,7 @@
 // Give a number, convert that to text. 123 as One hundred and twenty three.
+// 1. std solution would be
+//    std::string s = std::to_string(123);
+// 2. Non-std solution: 
 #include <string>
 
 std::string GetText(int n, int dec) {
